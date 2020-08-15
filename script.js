@@ -58,5 +58,8 @@ container.addEventListener('click', e => {
         e.target.classList.toggle('selected');
     }
 
-    updateSelectedCount()
+    updateSelectedCount();
 });
+
+// Initial count and total set
+updateSelectedCount();
