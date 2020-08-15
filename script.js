@@ -29,6 +29,7 @@ function updateSelectedCount() {
 // Movie select event
 movieSelect.addEventListener('change', e => {
     ticketPrice = Number(e.target.value);
+    setMovieData(e.target.selectedSeats, e.target.value);
     updateSelectedCount();
 })
 
