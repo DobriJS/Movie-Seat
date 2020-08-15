@@ -1,2 +1,2 @@
 const container = document.querySelector('.container');
-const seats = document.querySelectorAll('.seat');
+const seats = document.querySelectorAll('.row .seat:not(.occupied)');
